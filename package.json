@@ -1,0 +1,41 @@
+{
+  "name": "rapid",
+  "version": "1.0.0",
+  "description": "A simple tool for rapidly creating components",
+  "author": "Jonathan Neal <jonathantneal@hotmail.com> (http://jonathantneal.com)",
+  "license": "CC0-1.0",
+  "repository": "jonathantneal/rapid",
+  "homepage": "https://github.com/jonathantneal/rapid",
+  "bugs": "https://github.com/jonathantneal/rapid/issues",
+  "main": "index.js",
+  "bin": {
+    "rapid": "cli.js"
+  },
+  "scripts": {
+    "test": "node test"
+  },
+  "engines": {
+    "node": ">=6.5.0"
+  },
+  "echint": {
+    "extends": "dev"
+  },
+  "eslintConfig": {
+    "extends": "dev"
+  },
+  "jscsConfig": {
+    "preset": "dev"
+  },
+  "stylelint": {
+    "extends": "stylelint-config-dev"
+  },
+  "dependencies": {
+    "eslint": "^3.13.0",
+    "eslit": "jonathantneal/eslit",
+    "jscs": "^3.0.7",
+    "mime-types": "^2.1.13",
+    "postcss": "^5.2.8",
+    "rollup": "^0.41.1",
+    "stylelint": "^7.7.1"
+  }
+}
